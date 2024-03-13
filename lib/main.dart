@@ -16,7 +16,19 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.blue[100],
         appBar: AppBar(
-          title: Text("JSON File Checker"),
+          title: Text(
+            "JSON File Checker",
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              color: Colors.white,
+            ),
+          ),
+          backgroundColor: Colors.blue[200],
+          elevation: 500,
+          leading: Icon(
+            Icons.menu,
+            color: Colors.white,
+          ),
         ),
         body: Center(
           child: Container(
